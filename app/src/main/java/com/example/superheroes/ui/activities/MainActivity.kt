@@ -131,6 +131,10 @@ class MainActivity : AppCompatActivity() {
         return networkCapabilities != null && networkCapabilities.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET)
     }
 
+    override fun onBackPressed() {
+       // super.onBackPressed()
+    }
+
 
 
 }
