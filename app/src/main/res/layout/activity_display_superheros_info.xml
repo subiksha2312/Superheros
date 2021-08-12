@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0C0C0C"
+    android:orientation="vertical"
+    tools:context=".ui.activities.displaySuperherosInfo"
+    android:transitionName="simple_transition_activity">
+
+
+    <ImageView
+        android:id="@+id/superheroImage"
+        android:layout_width="287dp"
+        android:layout_height="174dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="34dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        />
+
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="388dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="#50525E"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="388dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="#50525E"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <TextView
+        android:id="@+id/slug"
+        android:layout_width="388dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="#50525E"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <TextView
+        android:id="@+id/intelligence"
+        android:layout_width="388dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="#50525E"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <TextView
+        android:id="@+id/strength"
+        android:layout_width="388dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="#50525E"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+
+    <TextView
+        android:id="@+id/speed"
+        android:layout_width="388dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="#50525E"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="388dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="#50525E"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <TextView
+        android:id="@+id/race"
+        android:layout_width="388dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="#50525E"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <TextView
+        android:id="@+id/height"
+        android:layout_width="388dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="#50525E"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="388dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="#50525E"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <TextView
+        android:id="@+id/haircolor"
+        android:layout_width="388dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="#50525E"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+
+    <TextView
+        android:id="@+id/eyecolor"
+        android:layout_width="388dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="#50525E"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <TextView
+        android:id="@+id/fullname"
+        android:layout_width="388dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="#50525E"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <TextView
+        android:id="@+id/alterego"
+        android:layout_width="388dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="#50525E"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <TextView
+        android:id="@+id/placeofbirth"
+        android:layout_width="388dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="#50525E"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <TextView
+        android:id="@+id/publisher"
+        android:layout_width="388dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="#50525E"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <TextView
+        android:id="@+id/occupation"
+        android:layout_width="388dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="#50525E"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+
+    <TextView
+        android:id="@+id/base"
+        android:layout_width="388dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="#50525E"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <TextView
+        android:id="@+id/groupaffiliation"
+        android:layout_width="388dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="#50525E"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <TextView
+        android:id="@+id/relatives"
+        android:layout_width="388dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="#50525E"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+
+</LinearLayout>
